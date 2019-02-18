@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Здесь Ваше имя и Фамилия">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="lesson6.css">
+</head>
+
+<body>
+    <div>
+        <form action="https://point.md/path/to/server/" method="POST">
+            Your name<br>
+            <input id="firstname" type="text" name="first" size="30" required placeholder="Name">
+            <br><br>
+            Your email<br>
+            <input type="text" id="email" name="email" size="30" placeholder="Email">
+            <br><br>
+            <legend>What's this all about?</legend>
+            <input type="checkbox" name="option1" value="a1">Say Hello<br>
+            <input type="checkbox" name="option2" value="a2" checked>Complain<br>
+            <input type="checkbox" name="option3" value="a3">Share a joke<br><br>
+
+            <legend>Subject</legend>
+            <select name="Subject" id="q1">
+                <option value="1">Please select</option>
+            </select>
+            <br><br>
+            Your Message<br>
+            <textarea name="comment" id="comment" cols="50" rows="10" placeholder="Не более 300 символов"></textarea>
+            <br><br>
+            <input type="submit" value="Send" class="button">
+        </form>
+    </div>
+</body>
+
+</html>
